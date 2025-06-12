@@ -21,6 +21,7 @@ Note: This approach uses the absolute value of each resistance to ensure all val
 function sumOfResistors(resistorsArray) {
   const resistorsAbs = resistorsArray.map((resistor) => Math.abs(resistor));
   console.log(resistorsAbs);
+
   const totalResistance = resistorsAbs.reduce((total, current) => total + current, 0);
   return `${totalResistance} ohms`
 }
