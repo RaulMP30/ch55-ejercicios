@@ -29,3 +29,4 @@ const secretName = function (namesArray) {
 console.log(secretName(["Esperanza", "Franco", "Nia"]));
 console.log(secretName(["Phoebe", "Ross", "Chandler", "Joey", "Monica", "Rachel"]));
 console.log(secretName(["Harry", "Ron", "Hermione"]));
+
